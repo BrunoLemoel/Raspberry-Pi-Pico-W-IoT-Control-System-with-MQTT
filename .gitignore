@@ -1,0 +1,39 @@
+# Build artifacts
+/build/
+/build-*/
+/*.elf
+/*.map
+/*.bin
+/*.uf2
+/*.hex
+/*.exe
+/CMakeFiles/
+/CMakeCache.txt
+/cmake-build-*/
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python virtualenv
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Core dumps
+core
+
+# Misc
+*.swp
+*.swo
+*.bak
+*.tmp
